@@ -1,0 +1,573 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* deffult css */
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+.clear{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.fixed-width{
+   max-width: 1024px;
+    margin: auto;
+}
+
+
+
+.full-website{
+    height: auto;
+    max-width:100%;
+}
+/* Main Css */
+.header{
+    background-color: #fff;
+    width: 100%;
+    height:100px;
+    padding:10px;
+    
+}
+.header .logo{
+   width: 50%;
+}
+.header .logo img{
+    width: 120px;
+
+ }
+.header .menu{
+    width: 50%;
+    line-height: 60px;
+}
+.header .manu ul{
+    
+}
+.header .menu ul li{
+    display: inline-block;
+}
+.header .menu ul li a{
+    color: #000;
+    padding: 0 20px;
+}
+.header .menu ul li a:hover{}
+
+/* Banner section */
+.banner{
+    background-image: url(./img/kobu-agency-IWLR561-Yb-MY-unsplash.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 500px;
+    margin-top: -25px;
+}
+
+.banner .h-text{
+    padding-top: 150px;
+}
+.banner .h-text h5{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner .h-text h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff; 
+    padding: 20px;
+}
+
+.banner .h-button{
+  max-width: 290px;
+  margin: auto;
+}
+.banner .h-button .buttons{
+    width: 50%;
+   margin: auto;
+   margin-top: 30px;
+   
+}
+.banner .h-button .buttons a{
+    color: #7d7d7d;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 5px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.banner .h-button .buttons a:hover{
+    background-color: #e79230;
+    color: #fff;
+}
+
+
+/* Price service sectiom */
+
+/* top */
+.price{
+    width: 100%;
+    margin: auto;
+    background-color: #f7f7f7;
+    height: 960px;
+
+    
+}
+.price .price-text{
+    padding: 50px;
+   
+}
+.price .price-text h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+.price .price-text p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #7d7d7d;
+    padding: 20px 0;
+}
+/* price bottom */
+.prices{
+    max-width:100%;
+    margin: auto;
+    text-align: center;
+    margin-left:15%;
+}
+.prices .price-item{
+    text-align: left;
+    width: 25.1%;
+    margin-right: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* padding: 50px 0px; */box-shadow: 3px 4px 20px rgb(188, 186, 186);
+    
+}
+.prices .price-item .h-item{
+    border-bottom:2px solid #ddd ;
+    padding: 20px;
+    transition: .5s;
+    
+}
+.prices .price-item .h-item h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+.prices .price-item .h-item h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin:15px 5px;
+    background-color: rgb(241, 240, 240);
+    border-radius: 5px;
+
+
+}
+
+.prices .price-item .h-item h1 span{
+    font-size: 16px;
+    font-weight: 900;
+}
+.prices .price-item .h-item h6{
+    font-size: 14px;
+    font-weight: 600;
+    margin:15px 0;
+    padding-top: 20px;
+}
+.prices .price-item .h-item p{
+    font-size:14px;
+    line-height: 20px;
+    padding: 20px 0;
+}
+
+
+.prices .price-item .bt-item{
+    padding: 20px;
+}
+.prices .price-item .bt-item ul{
+    padding: 10px 0;
+}
+.prices .price-item .bt-item li{
+    padding: 10px 0;
+    font-size: 18px;
+    color: #76777b;
+}
+.prices .price-item .bt-item li span{
+    
+}
+.prices .price-item .bt-item li span i{
+    color: #e79230;
+    font-size: 30px;
+    font-weight: 600;
+    width: 50px;
+
+    
+}
+.prices .price-item .bt-item{
+
+}
+.prices .price-item .bt-item .buttons{
+    text-align: center;
+    margin: 25px 0;
+}
+
+.prices .price-item:hover .h-item{
+    background-color:#e79230 ;
+} 
+.prices .price-item .bt-item .buttons a{
+    color: #7d7d7d;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-left: 5px;
+    box-shadow: 2px 2px 30px #c5c5c5 ;
+    display: inline-block;
+    transition: .5s;
+}
+
+
+.prices .price-item .bt-item .buttons a:hover{
+    background-color: #e79230;
+    color: #fff;
+}
+
+/* Team section */
+.team{
+
+    max-width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+.team .h-team{
+    padding: 50px;
+}
+.team .h-team h3{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+
+}
+.team .bt-team{}
+
+.team .bt-team .t-member{
+    width:21%;
+    height: auto;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 3px solid orange;
+    outline: 3px solid rgb(255, 77, 0);
+}
+.team .bt-team .t-member img{
+
+}
+.team .bt-team .t-member h5{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 10px;
+}
+.team .bt-team .t-member p{
+    font-size: 18px;
+    font-weight: 400;
+    padding:10px;
+    padding-top: 0;
+    color: #808080;
+}
+
+/* Subscribe section */
+.subscribe{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+.subscribe p{
+
+}
+.subscribe h3{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.subscribe form{
+
+}
+.subscribe form .input1{
+    padding:12px;
+    padding-right:150px;
+    border: 2px solid #b5c01b;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: .5s;
+}
+
+.subscribe form .input1:hover{
+    border:2px solid rgb(87, 87, 237) ;
+    box-shadow: 1px 1px 30px rgb(136, 136, 248);
+}
+.subscribe form .input2{
+    background-color: #aa972c;
+    color: #fff;
+    padding: 12px 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 0px solid #aa972c;
+    transition: .5s;
+}
+
+.subscribe form .input2:hover{
+    background-color: #e79230;
+}
+
+/* service section  */
+
+.service{
+    padding: 50px;
+    max-width: 1100px;
+    margin: auto;
+    height: 500px;
+
+}
+.service .h-service h3{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+.service .bt-service img{
+    width:400px ;
+    height: 380px;
+}
+.service .bt-service .img{
+    width: 45%;
+    height:auto ;
+    padding:0 20px;
+    box-sizing: border-box;
+    margin-right: 2%;
+}
+.service .bt-service .text{
+    width: 50%;
+    box-sizing: border-box;
+    padding-top:30px;
+}
+.service .bt-service .text h5{
+    font-size: 18px ;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.service .bt-service .text p{
+    font-size: 15px;
+    color: #434344;
+}
+
+
+/* User section */
+.user{
+    padding: 50px;
+    height: 700px;
+    background-color: #f5f5f5;
+    width: 100%;
+    margin: auto;
+}
+.user .h-user{
+    padding-bottom: 20px;
+}
+.user .h-user p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #383636;
+}
+.user .h-user h3{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    padding: 20px;
+}
+.user .user-item{
+  max-width: 1024px;
+  margin: auto;
+  background-color: #000;
+  margin-left: 240px;
+
+}
+.user .user-item .items{
+    width: 25%;
+    border: 1px solid #ddd;
+    margin-right: 3%;
+    box-sizing: border-box;
+    height: 400px;
+}
+.user .user-item .items .item-t{
+    padding: 20px;
+    margin-bottom: 80px;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+.user .user-item .items .item-t::after{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left:125px ;
+    right: ;
+    top: ;
+    width: 0;
+    height: 0;
+     border-style: solid;
+    border-width: 34.6px 20px 0 20px;
+    border-color: #ffffff transparent transparent transparent;
+
+}
+
+.user .user-item .items .item-t p::before{
+    content: "\f10d";
+    font-family:FontAwesome;
+    font-size: 50px;
+    position: absolute;
+
+    opacity: .1;
+
+}
+.user .user-item .items .item-t p{
+line-height: 1.9 ;
+
+}
+.user .user-item .items .item-img{
+    width: 80px;
+    height:80px;
+    border: 10px solid #aa972c;
+    margin: auto;
+  
+}
+.user .user-item .items .item-img img{
+  
+    width: 90px;
+    height:90px;
+    max-width: 100%;
+    
+    
+  
+}
+.user .user-item .items .item-img .img-text{
+    
+    width: 300px;
+    height: ;
+
+}
+.user .user-item .items .item-img .img-text h5{}
+.user .user-item .items .item-img .img-text span{}
+.user{}
+
+
+/* Contact */
+.contact{
+    padding: 50px;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+.contact .contact-us{
+    max-width: 1024px;
+}
+.contact .contact-us .h-contact{}
+.contact .contact-us .h-contact h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.contact .contact-us .h-contact p{
+    padding: 20px;
+    line-height: 30px;
+}
+.contact .contact-us .bt-contact .input1{
+    padding: 10px;
+    padding-right: 220px;
+    border-radius: 5px;
+    border: 2px solid #ac9931;
+    transition: .5s;
+}
+.contact .contact-us .bt-contact .input1:hover{
+    border:2px solid rgb(87, 87, 237) ;
+    box-shadow: 1px 1px 30px rgb(136, 136, 248);
+}
+
+
+.contact .contact-us .bt-contact input{
+    padding: 10px;
+    margin: 5px 0;
+    margin-left: 16px;
+    border-radius: 5px;border: 2px solid #ac9931;
+    transition: .5s;
+}
+
+.contact .contact-us .bt-contact input:hover{
+    border:2px solid rgb(87, 87, 237) ;
+    box-shadow: 1px 1px 30px rgb(136, 136, 248);
+}
+.contact .contact-us .bt-contact .input3{
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+    border-radius: 5px;border: 2px solid #ac9931;
+    transition: .5s;
+}
+
+.contact .contact-us .bt-contact .input3:hover{
+    border:2px solid rgb(87, 87, 237) ;
+    box-shadow: 1px 1px 30px rgb(136, 136, 248);
+}
+.contact .contact-us .bt-contact .send{
+    background-color: #ac9931;;
+    border:0;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 50px;
+    transition: .5s;
+}
+
+
+.contact .contact-us .bt-contact .send:hover{
+    background-color:#e79230 ;
+}
+
+
+ /* footer */
+ .footer{
+    background-color: #fff;
+
+ }
+ footer p{
+
+ }
